@@ -1,7 +1,7 @@
 import React from "react";
 import "./style.css";
 
-const Registro = () => {
+export const Registro = () => {
   return (
     <div className="container">
       <div className="form-container">
@@ -37,5 +37,3 @@ const Registro = () => {
     </div>
   );
 };
-
-export default Registro;
